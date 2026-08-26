@@ -52,6 +52,3 @@ Software and method-source acknowledgements are recorded in [`CODE_PROVENANCE.md
 
 Registered/contact addresses and inflation-adjusted income support a measure of potential accessibility and capacity. They do not identify service-delivery locations, observed journeys, individual service use, unmet need or causal effects on unpaid care.
 
-## Citation
-
-Use [`CITATION.cff`](CITATION.cff). The MIT licence applies to original code only; it does not grant rights to any source data or third-party material.
