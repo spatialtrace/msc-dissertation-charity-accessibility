@@ -1,0 +1,4 @@
+﻿year,internal_result_lsoas,external_demand_support_lsoas,total_demand_support_lsoas,care50_count_total_support,provider_lsoas,internal_provider_lsoas,external_provider_lsoas,capacity_log1p_income_total,authoritative_charities,usable_income_charities,data_spine_capacity,provider_capacity,capacity_match,pass
+2001,3411,3558,6969,203938,1789,1354,435,27279.8283501902,2276,2028,20670.7644520562,20670.7644520562,True,True
+2011,3411,3558,6969,257882,2419,1811,608,42724.6028343837,3313,3102,32060.7451736106,32060.7451736131,True,True
+2021,3411,3558,6969,290988,2671,1964,707,51322.8822034926,3996,3894,37813.0019643827,37813.0019643827,True,True

@@ -1,0 +1,13 @@
+check,pass
+three annual frozen LSOA sources loaded,True
+"3,411 unique LSOAs in every year",True
+seven existing ICBs found,True
+existing rural_binary complete and binary,True
+harmonised-2021 rural_binary identical across all three years,True
+all ICB x urban/rural subgroup sizes printed and retained,True
+"ICB annual summaries conserve 3,411 LSOAs",True
+"urban/rural annual summaries conserve 3,411 LSOAs",True
+"ICB x urban/rural annual summaries conserve 3,411 LSOAs",True
+"ICB trajectory counts conserve 3,411 LSOAs",True
+"ICB x urban/rural trajectory counts conserve 3,411 LSOAs",True
+all pre-existing non-notebook files unchanged,True

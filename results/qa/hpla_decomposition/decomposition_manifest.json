@@ -1,0 +1,58 @@
+{
+  "specification": "Travel-time-based 30 min",
+  "notebook_modified": "code/04_main_hpla_trajectories/icb_urban_rural_decomposition.ipynb",
+  "cells_appended": 10,
+  "frozen_data_files_used": [
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2001.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2011.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/lsoa_hp_la_trajectories_2001_2021.csv"
+  ],
+  "frozen_data_sha256": {
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2001.csv": "4ab34380b54274129897d358a4ae9327e5cab6cf18fd4b19939ab6a0779e0a23",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2011.csv": "d7a78473ec06297d3348e62c5fec6b34dc2009e0526dcf633df4354f36043377",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/annual_hp_la_status_2021.csv": "1f34ac7d40a5a80a48e65374f856bc5a05da831e348080a23c2a5cd00e37fb4e",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Downstream_Analysis_Descriptive_E2SFCA_Longitudinal_20260820/04_TravelTime_E2SFCA_30min_ExactHalo20_40/tables/lsoa_hp_la_trajectories_2001_2021.csv": "eb618e6a0d4c76b760aca6285e6b7c620ba9c3a71b8261121f62cc60a8e9d77e"
+  },
+  "icb_fields": [
+    "ICB23CD",
+    "ICB23NM"
+  ],
+  "urban_rural_field": "rural_binary",
+  "urban_rural_mapping": {
+    "0": "Urban",
+    "1": "Rural"
+  },
+  "urban_rural_spatial_basis": "rural_binary defined on harmonised 2021 LSOA geography and held constant across 2001, 2011 and 2021",
+  "number_of_icbs": 7,
+  "urban_rural_categories_found": [
+    "Rural",
+    "Urban"
+  ],
+  "new_csv_paths": [
+    "results/summary/hpla_trajectories/icb_astar_change_summary.csv",
+    "results/summary/hpla_trajectories/icb_summary.csv",
+    "results/summary/hpla_trajectories/icb_trajectory_composition.csv",
+    "results/summary/hpla_trajectories/icb_x_urban_rural_compact.csv",
+    "results/summary/hpla_trajectories/icb_x_urban_rural_sample_sizes.csv",
+    "results/summary/hpla_trajectories/icb_x_urban_rural_summary.csv",
+    "results/summary/hpla_trajectories/icb_x_urban_rural_trajectory_composition.csv",
+    "results/summary/hpla_trajectories/urban_rural_astar_contrast.csv",
+    "results/summary/hpla_trajectories/urban_rural_overall_summary.csv",
+    "results/summary/hpla_trajectories/urban_rural_trajectory_composition.csv",
+    "results/qa/hpla_decomposition/decomposition_qa.csv"
+  ],
+  "new_figure_paths": [
+    "figures/summary/icb_trajectory_percentages.png",
+    "figures/summary/urban_rural_hpla_prevalence.png",
+    "figures/summary/urban_rural_mean_accessibility.png"
+  ],
+  "pre_existing_files_overwritten": false,
+  "existing_analytical_definition_changed": false,
+  "e2sfca_recomputed": false,
+  "trajectory_recomputed_under_new_specification": false,
+  "logic_version": "identical descriptive decomposition v1; specification-specific frozen Astar and HP-LA results retained",
+  "python": "3.11.15",
+  "execution_scope": "descriptive decomposition cells only; frozen exact-halo HP-LA and trajectory outputs were not recalculated",
+  "public_release_note": "Only aggregate tables, non-geographic charts and QA are included; LSOA records remain private."
+}

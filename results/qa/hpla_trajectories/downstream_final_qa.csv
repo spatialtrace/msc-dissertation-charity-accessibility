@@ -1,0 +1,15 @@
+﻿year,check,value,pass
+2001,"3,411 unique annual LSOAs",3411,True
+2001,annual states exhaustive,3411,True
+2001,strict high-pressure rule,1705,True
+2001,strict low-access rule,1705,True
+2011,"3,411 unique annual LSOAs",3411,True
+2011,annual states exhaustive,3411,True
+2011,strict high-pressure rule,1705,True
+2011,strict low-access rule,1705,True
+2021,"3,411 unique annual LSOAs",3411,True
+2021,annual states exhaustive,3411,True
+2021,strict high-pressure rule,1705,True
+2021,strict low-access rule,1705,True
+all,trajectory rows,3411,True
+all,trajectory categories complete,3411,True

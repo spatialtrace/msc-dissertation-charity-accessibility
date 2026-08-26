@@ -1,0 +1,26 @@
+{
+  "analysis_type": "accessibility_and_longitudinal",
+  "specification": "distance",
+  "slug": "distance_20km",
+  "display_name": "Distance-based 20 km",
+  "source_run": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820",
+  "boundary_gpkg": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+  "result_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2001_distance_20km.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2011_distance_20km.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2021_distance_20km.csv"
+  },
+  "input_paths": [
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2001_distance_20km.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2011_distance_20km.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/lsoa_accessibility_2021_distance_20km.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/accessibility_summary_2001_2011_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/results/longitudinal_accessibility_input_distance_20km.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/qa/standardisation_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/qa/supply_accessibility_conservation_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/qa/result_completeness_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/METHOD_MANIFEST.json",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/output_manifest.csv"
+  ]
+}

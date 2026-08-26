@@ -1,0 +1,9 @@
+run,check,pass,observed
+shared_descriptive,notebook_exists,True,01_descriptive_mapping_summary.ipynb
+shared_descriptive,expected_code_cell_count,True,7
+shared_descriptive,all_code_cells_executed,True,7
+shared_descriptive,zero_notebook_errors,True,0
+shared_descriptive,expected_png_figure_set,True,9
+shared_descriptive,expected_pdf_figure_set,True,9
+shared_descriptive,all_source_files_unchanged,True,14
+shared_descriptive,all_workflow_qa_pass,True,12

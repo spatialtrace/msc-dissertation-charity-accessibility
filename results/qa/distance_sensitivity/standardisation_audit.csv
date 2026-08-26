@@ -1,0 +1,4 @@
+﻿year,fixed_baseline_A_2001_SW_Care50_weighted,care50_weighted_mean_Astar,baseline_is_fixed_across_years,pass
+2001,0.211613437999809,1,True,True
+2011,0.211613437999809,1.21369351397825,True,True
+2021,0.211613437999809,1.24359696109823,True,True

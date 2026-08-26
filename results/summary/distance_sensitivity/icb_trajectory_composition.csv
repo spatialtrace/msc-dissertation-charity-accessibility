@@ -1,0 +1,36 @@
+ICB23CD,trajectory_category,ICB23NM,trajectory_count,icb_lsoas,trajectory_percent
+E54000040,Persistent HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",13,569,2.2847100175746924
+E54000040,Emerging HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",56,569,9.84182776801406
+E54000040,Resolved / improved,"Bath and North East Somerset, Swindon and Wiltshire",23,569,4.042179261862917
+E54000040,Intermittent,"Bath and North East Somerset, Swindon and Wiltshire",20,569,3.51493848857645
+E54000040,Never HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",457,569,80.31634446397189
+E54000039,Persistent HP–LA,"Bristol, North Somerset and South Gloucestershire",40,581,6.884681583476764
+E54000039,Emerging HP–LA,"Bristol, North Somerset and South Gloucestershire",34,581,5.851979345955249
+E54000039,Resolved / improved,"Bristol, North Somerset and South Gloucestershire",60,581,10.327022375215146
+E54000039,Intermittent,"Bristol, North Somerset and South Gloucestershire",26,581,4.475043029259897
+E54000039,Never HP–LA,"Bristol, North Somerset and South Gloucestershire",421,581,72.46127366609295
+E54000036,Persistent HP–LA,Cornwall and the Isles of Scilly,165,337,48.961424332344215
+E54000036,Emerging HP–LA,Cornwall and the Isles of Scilly,32,337,9.495548961424332
+E54000036,Resolved / improved,Cornwall and the Isles of Scilly,66,337,19.584569732937684
+E54000036,Intermittent,Cornwall and the Isles of Scilly,33,337,9.792284866468842
+E54000036,Never HP–LA,Cornwall and the Isles of Scilly,41,337,12.166172106824925
+E54000037,Persistent HP–LA,Devon,224,729,30.727023319615913
+E54000037,Emerging HP–LA,Devon,110,729,15.089163237311386
+E54000037,Resolved / improved,Devon,65,729,8.916323731138545
+E54000037,Intermittent,Devon,35,729,4.801097393689986
+E54000037,Never HP–LA,Devon,295,729,40.46639231824417
+E54000041,Persistent HP–LA,Dorset,72,463,15.550755939524837
+E54000041,Emerging HP–LA,Dorset,65,463,14.038876889848812
+E54000041,Resolved / improved,Dorset,97,463,20.950323974082075
+E54000041,Intermittent,Dorset,53,463,11.44708423326134
+E54000041,Never HP–LA,Dorset,176,463,38.01295896328294
+E54000043,Persistent HP–LA,Gloucestershire,5,393,1.272264631043257
+E54000043,Emerging HP–LA,Gloucestershire,22,393,5.597964376590331
+E54000043,Resolved / improved,Gloucestershire,14,393,3.5623409669211195
+E54000043,Intermittent,Gloucestershire,10,393,2.544529262086514
+E54000043,Never HP–LA,Gloucestershire,342,393,87.02290076335878
+E54000038,Persistent HP–LA,Somerset,30,339,8.849557522123893
+E54000038,Emerging HP–LA,Somerset,45,339,13.274336283185841
+E54000038,Resolved / improved,Somerset,24,339,7.079646017699115
+E54000038,Intermittent,Somerset,20,339,5.899705014749262
+E54000038,Never HP–LA,Somerset,220,339,64.89675516224189

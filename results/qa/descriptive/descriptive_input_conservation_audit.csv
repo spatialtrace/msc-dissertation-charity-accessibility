@@ -1,0 +1,4 @@
+﻿year,lsoas,unique_lsoas,care50_missing,eligible_charities,mapped_eligible_charities,usable_income_charities,mapped_usable_income_charities,capacity_sum,provider_capacity_sum,pass
+2001,3411,3411,0,2276,2276,2028,2028,20670.7644520562,20670.7644520562,True
+2011,3411,3411,0,3313,3313,3102,3102,32060.7451736131,32060.7451736131,True
+2021,3411,3411,0,3996,3996,3894,3894,37813.0019643828,37813.0019643827,True

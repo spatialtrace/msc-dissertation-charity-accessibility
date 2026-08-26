@@ -1,0 +1,17 @@
+cff-version: 1.2.0
+message: "If you use this code, please cite it using the metadata below."
+title: "Travel-Time-Based Registered-Charity Accessibility and High-Intensity Unpaid Care"
+type: software
+authors:
+  - family-names: Zhu
+    given-names: Gengen
+version: 1.0.0
+date-released: 2026-08-26
+repository-code: "https://github.com/gengenzhu/msc-dissertation-charity-accessibility"
+license: MIT
+keywords:
+  - E2SFCA
+  - unpaid care
+  - registered charities
+  - spatial accessibility
+  - South West England

@@ -1,0 +1,4 @@
+﻿year,external_demand_candidate_pairs,external_demand_true_network_pairs_to_all_providers,external_demand_weighted_pairs_to_all_providers,external_provider_candidate_pairs_to_internal_demand,external_provider_true_network_pairs_to_internal_demand,external_provider_weighted_pairs_to_internal_demand,unreachable_pairs,unreachable_pairs_with_nonzero_weight,buffer_membership_used_as_pair_eligibility,network_rule,pass
+2001,6365262,94006,94006,1483785,7099,7099,12125088,0,False,finite shortest path plus both connectors and within catchment,True
+2011,8606802,138968,138968,2073888,9861,9861,16374501,0,False,finite shortest path plus both connectors and within catchment,True
+2021,9503418,169344,169344,2411577,10626,10626,18068237,0,False,finite shortest path plus both connectors and within catchment,True

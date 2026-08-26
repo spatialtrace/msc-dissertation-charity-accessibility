@@ -1,0 +1,56 @@
+{
+  "created_at_utc": "2026-08-23T15:36:33.559939+00:00",
+  "status": "completed_od_and_e2sfca_only_longitudinal_not_run",
+  "version": "travel_time_exact_halo_20_40",
+  "run_dir": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823",
+  "workflow": [
+    "Data collection",
+    "common spatial foundation",
+    "OD/network impedance",
+    "E2SFCA",
+    "A/A standardisation",
+    "descriptive outputs",
+    "longitudinal analysis preparation"
+  ],
+  "years": [
+    2001,
+    2011,
+    2021
+  ],
+  "final_internal_lsoas": 3411,
+  "demand": "Care50 count",
+  "capacity": "charity-level log1p(income_2021_gbp), then provider-LSOA aggregation",
+  "impedance": {
+    "unit": "minutes",
+    "catchment": 30.0,
+    "bands": [
+      10.0,
+      20.0,
+      30.0
+    ],
+    "weights": [
+      1.0,
+      0.68,
+      0.22
+    ],
+    "graph": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/road_graph_travel_time_min_provider_centred.npz",
+    "connector_rule": "nearest surface road node in its true graph component; both straight-line connectors converted at 25.6 km/h",
+    "buffer_membership_is_not_pair_eligibility": true
+  },
+  "boundary_correction": {
+    "candidate_geometry": "external providers within exact 20 km Euclidean halo; external competing-demand representative points within 40 km halo",
+    "external_demand": "enters Step 1 only for finite true-network pairs within the 30-minute catchment",
+    "external_provider": "enters internal Step 2 only for finite true-network pairs within the 30-minute catchment",
+    "final_results": "internal 3,411 fixed-2021 LSOAs only"
+  },
+  "standardisation": "A divided by fixed 2001 South West Care50-demand-weighted mean A",
+  "network_limitations": "Same symmetric undirected DfT routeHierarchy free-flow travel-time graph as the current final 30-minute run; no one-way restrictions, turn penalties, congestion or FerryLinks.",
+  "explicitly_not_run": [
+    "trajectory classification",
+    "longitudinal decomposition",
+    "mismatch classification",
+    "Bi-LISA",
+    "regression",
+    "BYM2"
+  ]
+}

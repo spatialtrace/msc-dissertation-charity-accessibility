@@ -1,0 +1,55 @@
+{
+  "version": "travel_time_exact_halo_20_40",
+  "slug": "travel_time_30min_exact_halo20_40",
+  "title": "Travel-time E2SFCA with exact 20 km provider and 40 km competing-demand halos",
+  "boundary_support_mode": "exact_20km_provider_40km_demand",
+  "common": {
+    "covariate_paths": {
+      "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2001.csv",
+      "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2011.csv",
+      "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2021.csv"
+    },
+    "charity_paths": {
+      "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2001charity.csv",
+      "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2011charity.csv",
+      "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2021charity.csv"
+    },
+    "points_path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_representative_points.csv",
+    "foundation_gpkg": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+    "harmonisation_audit_path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/harmonisation_conservation_audit.csv"
+  },
+  "demand_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/demand/harmonised_external_care50_to_2021_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/demand/harmonised_external_care50_to_2021_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/demand/harmonised_external_care50_to_2021_2021.csv"
+  },
+  "support_points_path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/boundaries/competing_demand_halo_40km_2021_lsoa_list.csv",
+  "internal_provider_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2021.csv"
+  },
+  "external_charity_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/charities/external_eligible_charities_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/charities/external_eligible_charities_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/charities/external_eligible_charities_2021.csv"
+  },
+  "graph_path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/road_graph_travel_time_min_provider_centred.npz",
+  "nodes_path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/road_nodes_xyz_provider_centred.npy",
+  "impedance_unit": "minutes",
+  "max_impedance": 30.0,
+  "bands": [10.0, 20.0, 30.0],
+  "weights": [1.0, 0.68, 0.22],
+  "connector_speed_kmh": 25.6,
+  "connector_rule": "nearest surface road node in its true graph component; both straight-line connectors converted at 25.6 km/h",
+  "network_limitations": "Same symmetric undirected DfT routeHierarchy free-flow travel-time graph as the current final 30-minute run; no one-way restrictions, turn penalties, congestion or FerryLinks.",
+  "method_authority_paths": [
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/METHOD_MANIFEST.json",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/DATA_AUDIT_REPORT.md",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/qa/charity_completeness_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/qa/demand_completeness_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/QA(Travel_time)/road_graph_provider_centred_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/QA(Travel_time)/route_hierarchy_speed_audit.csv"
+  ],
+  "dijkstra_batch_size": 16
+}

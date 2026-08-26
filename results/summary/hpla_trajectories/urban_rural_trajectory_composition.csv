@@ -1,0 +1,11 @@
+settlement_type,trajectory_category,trajectory_count,group_lsoas,trajectory_percent
+Urban,Persistent HP–LA,404,2411,16.756532559104105
+Urban,Emerging HP–LA,172,2411,7.133969307341352
+Urban,Resolved / improved,265,2411,10.991289921194525
+Urban,Intermittent,105,2411,4.355039402737454
+Urban,Never HP–LA,1465,2411,60.76316880962256
+Rural,Persistent HP–LA,167,1000,16.7
+Rural,Emerging HP–LA,160,1000,16.0
+Rural,Resolved / improved,85,1000,8.5
+Rural,Intermittent,89,1000,8.9
+Rural,Never HP–LA,499,1000,49.9

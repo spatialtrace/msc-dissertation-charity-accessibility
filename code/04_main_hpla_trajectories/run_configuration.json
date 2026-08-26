@@ -1,0 +1,25 @@
+{
+  "analysis_type": "accessibility_and_longitudinal_boundary_sensitivity",
+  "specification": "travel_time_exact_halo_20_40",
+  "slug": "travel_time_30min_exact_halo20_40",
+  "display_name": "Travel-time-based 30 min, exact 20/40 km boundary support",
+  "source_run": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823",
+  "boundary_gpkg": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+  "result_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2001_travel_time_30min_exact_halo20_40.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2011_travel_time_30min_exact_halo20_40.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2021_travel_time_30min_exact_halo20_40.csv"
+  },
+  "input_paths": [
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2001_travel_time_30min_exact_halo20_40.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2011_travel_time_30min_exact_halo20_40.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/lsoa_accessibility_2021_travel_time_30min_exact_halo20_40.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/accessibility_summary_2001_2011_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/results/longitudinal_accessibility_input_travel_time_30min_exact_halo20_40.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/qa/standardisation_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/qa/supply_accessibility_conservation_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/qa/result_completeness_audit.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823/METHOD_MANIFEST.json"
+  ]
+}

@@ -1,0 +1,4 @@
+﻿year,support_demand_sum_D_times_A,provider_capacity_sum_S,absolute_difference,relative_error,conservation_scope,pass
+2001,27279.8283501902,27279.8283501902,3.63797880709171e-12,1.33357833502143e-16,all prepared internal plus external competing-demand support,True
+2011,42724.6028343837,42724.6028343837,7.27595761418343e-12,1.70299011143245e-16,all prepared internal plus external competing-demand support,True
+2021,51322.8822034926,51322.8822034926,1.45519152283669e-11,2.83536594275225e-16,all prepared internal plus external competing-demand support,True

@@ -1,0 +1,71 @@
+ICB23CD,settlement_type,trajectory_category,ICB23NM,trajectory_count,subgroup_lsoas,trajectory_percent
+E54000040,Urban,Persistent HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",13,392,3.316326530612245
+E54000040,Urban,Emerging HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",31,392,7.908163265306122
+E54000040,Urban,Resolved / improved,"Bath and North East Somerset, Swindon and Wiltshire",24,392,6.122448979591836
+E54000040,Urban,Intermittent,"Bath and North East Somerset, Swindon and Wiltshire",13,392,3.316326530612245
+E54000040,Urban,Never HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",311,392,79.33673469387755
+E54000040,Rural,Persistent HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",5,177,2.824858757062147
+E54000040,Rural,Emerging HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",14,177,7.909604519774011
+E54000040,Rural,Resolved / improved,"Bath and North East Somerset, Swindon and Wiltshire",7,177,3.9548022598870056
+E54000040,Rural,Intermittent,"Bath and North East Somerset, Swindon and Wiltshire",7,177,3.9548022598870056
+E54000040,Rural,Never HP–LA,"Bath and North East Somerset, Swindon and Wiltshire",144,177,81.35593220338983
+E54000039,Urban,Persistent HP–LA,"Bristol, North Somerset and South Gloucestershire",32,538,5.947955390334572
+E54000039,Urban,Emerging HP–LA,"Bristol, North Somerset and South Gloucestershire",24,538,4.4609665427509295
+E54000039,Urban,Resolved / improved,"Bristol, North Somerset and South Gloucestershire",52,538,9.66542750929368
+E54000039,Urban,Intermittent,"Bristol, North Somerset and South Gloucestershire",17,538,3.159851301115242
+E54000039,Urban,Never HP–LA,"Bristol, North Somerset and South Gloucestershire",413,538,76.76579925650557
+E54000039,Rural,Persistent HP–LA,"Bristol, North Somerset and South Gloucestershire",4,43,9.30232558139535
+E54000039,Rural,Emerging HP–LA,"Bristol, North Somerset and South Gloucestershire",3,43,6.976744186046512
+E54000039,Rural,Resolved / improved,"Bristol, North Somerset and South Gloucestershire",4,43,9.30232558139535
+E54000039,Rural,Intermittent,"Bristol, North Somerset and South Gloucestershire",7,43,16.27906976744186
+E54000039,Rural,Never HP–LA,"Bristol, North Somerset and South Gloucestershire",25,43,58.13953488372093
+E54000036,Urban,Persistent HP–LA,Cornwall and the Isles of Scilly,75,153,49.01960784313726
+E54000036,Urban,Emerging HP–LA,Cornwall and the Isles of Scilly,3,153,1.9607843137254901
+E54000036,Urban,Resolved / improved,Cornwall and the Isles of Scilly,35,153,22.875816993464053
+E54000036,Urban,Intermittent,Cornwall and the Isles of Scilly,10,153,6.5359477124183005
+E54000036,Urban,Never HP–LA,Cornwall and the Isles of Scilly,30,153,19.607843137254903
+E54000036,Rural,Persistent HP–LA,Cornwall and the Isles of Scilly,98,184,53.26086956521739
+E54000036,Rural,Emerging HP–LA,Cornwall and the Isles of Scilly,27,184,14.673913043478262
+E54000036,Rural,Resolved / improved,Cornwall and the Isles of Scilly,27,184,14.673913043478262
+E54000036,Rural,Intermittent,Cornwall and the Isles of Scilly,17,184,9.23913043478261
+E54000036,Rural,Never HP–LA,Cornwall and the Isles of Scilly,15,184,8.152173913043478
+E54000037,Urban,Persistent HP–LA,Devon,204,503,40.55666003976143
+E54000037,Urban,Emerging HP–LA,Devon,56,503,11.133200795228628
+E54000037,Urban,Resolved / improved,Devon,44,503,8.747514910536779
+E54000037,Urban,Intermittent,Devon,20,503,3.9761431411530817
+E54000037,Urban,Never HP–LA,Devon,179,503,35.586481113320076
+E54000037,Rural,Persistent HP–LA,Devon,26,226,11.504424778761061
+E54000037,Rural,Emerging HP–LA,Devon,55,226,24.336283185840706
+E54000037,Rural,Resolved / improved,Devon,20,226,8.849557522123893
+E54000037,Rural,Intermittent,Devon,22,226,9.734513274336283
+E54000037,Rural,Never HP–LA,Devon,103,226,45.575221238938056
+E54000041,Urban,Persistent HP–LA,Dorset,61,359,16.991643454038996
+E54000041,Urban,Emerging HP–LA,Dorset,42,359,11.699164345403899
+E54000041,Urban,Resolved / improved,Dorset,87,359,24.233983286908078
+E54000041,Urban,Intermittent,Dorset,31,359,8.635097493036211
+E54000041,Urban,Never HP–LA,Dorset,138,359,38.440111420612816
+E54000041,Rural,Persistent HP–LA,Dorset,13,104,12.5
+E54000041,Rural,Emerging HP–LA,Dorset,23,104,22.115384615384617
+E54000041,Rural,Resolved / improved,Dorset,13,104,12.5
+E54000041,Rural,Intermittent,Dorset,17,104,16.346153846153847
+E54000041,Rural,Never HP–LA,Dorset,38,104,36.53846153846154
+E54000043,Urban,Persistent HP–LA,Gloucestershire,4,284,1.408450704225352
+E54000043,Urban,Emerging HP–LA,Gloucestershire,4,284,1.408450704225352
+E54000043,Urban,Resolved / improved,Gloucestershire,5,284,1.7605633802816902
+E54000043,Urban,Intermittent,Gloucestershire,7,284,2.464788732394366
+E54000043,Urban,Never HP–LA,Gloucestershire,264,284,92.95774647887323
+E54000043,Rural,Persistent HP–LA,Gloucestershire,3,109,2.7522935779816513
+E54000043,Rural,Emerging HP–LA,Gloucestershire,13,109,11.926605504587156
+E54000043,Rural,Resolved / improved,Gloucestershire,6,109,5.504587155963303
+E54000043,Rural,Intermittent,Gloucestershire,7,109,6.422018348623853
+E54000043,Rural,Never HP–LA,Gloucestershire,80,109,73.39449541284404
+E54000038,Urban,Persistent HP–LA,Somerset,15,182,8.241758241758241
+E54000038,Urban,Emerging HP–LA,Somerset,12,182,6.593406593406593
+E54000038,Urban,Resolved / improved,Somerset,18,182,9.89010989010989
+E54000038,Urban,Intermittent,Somerset,7,182,3.8461538461538463
+E54000038,Urban,Never HP–LA,Somerset,130,182,71.42857142857143
+E54000038,Rural,Persistent HP–LA,Somerset,18,157,11.464968152866241
+E54000038,Rural,Emerging HP–LA,Somerset,25,157,15.92356687898089
+E54000038,Rural,Resolved / improved,Somerset,8,157,5.095541401273885
+E54000038,Rural,Intermittent,Somerset,12,157,7.643312101910828
+E54000038,Rural,Never HP–LA,Somerset,94,157,59.87261146496815

@@ -1,0 +1,63 @@
+{
+  "created_at_utc": "2026-08-20T11:23:52.339892+00:00",
+  "status": "completed_od_and_e2sfca_only_longitudinal_not_run",
+  "version": "distance",
+  "run_dir": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820",
+  "workflow": [
+    "Data collection",
+    "common spatial foundation",
+    "OD/network impedance",
+    "E2SFCA",
+    "A/A standardisation",
+    "descriptive outputs",
+    "longitudinal analysis preparation"
+  ],
+  "years": [
+    2001,
+    2011,
+    2021
+  ],
+  "final_internal_lsoas": 3411,
+  "demand": "Care50 count",
+  "capacity": "charity-level log1p(income_2021_gbp), then provider-LSOA aggregation",
+  "impedance": {
+    "unit": "metres",
+    "catchment": 20000.0,
+    "bands": [
+      5000.0,
+      10000.0,
+      20000.0
+    ],
+    "weights": [
+      1.0,
+      0.68,
+      0.22
+    ],
+    "graph": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/halo-20km/road_network/road_graph_open_with_ferries_45km.npz",
+    "connector_rule": "nearest surface road node in its true graph component; straight-line connector metres added at both ends",
+    "buffer_membership_is_not_pair_eligibility": true
+  },
+  "boundary_correction": {
+    "external_demand": "enters Step 1 only for finite true-network pairs within the catchment",
+    "external_provider": "enters internal Step 2 only for finite true-network pairs within the catchment",
+    "final_results": "internal 3,411 fixed-2021 LSOAs only"
+  },
+  "standardisation": "A divided by fixed 2001 South West Care50-demand-weighted mean A",
+  "network_limitations": "Undirected December-2021 road-length graph; no FerryLinks, one-way restrictions, turn penalties or traffic speeds.",
+  "explicitly_not_run": [
+    "trajectory classification",
+    "longitudinal decomposition",
+    "mismatch classification",
+    "Bi-LISA",
+    "regression",
+    "BYM2"
+  ],
+  "finalized_at_utc": "2026-08-20T11:26:35.264335+00:00",
+  "executed_notebook": {
+    "path": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Road_network(Distance)/Distance_E2SFCA_20km_Run_20260820/Distance_E2SFCA_2001_2011_2021.ipynb",
+    "sha256": "2cbda5390a5af6d97026b64b0ef8a37f39d039ee55ad46a701589353f401c050",
+    "code_cells": 10,
+    "error_outputs": 0
+  },
+  "preexisting_parent_files_verified_unchanged": 156
+}

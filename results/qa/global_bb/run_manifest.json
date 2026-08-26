@@ -1,0 +1,25 @@
+{
+  "analysis": "Annual HP-LA global binary BB join-count clustering test",
+  "source_specification": "Travel-time-based 30-minute E2SFCA",
+  "hp_la_field": "within_year_relative_hpla",
+  "years": [
+    2001,
+    2011,
+    2021
+  ],
+  "permutations": 999,
+  "weight_construction": "PySAL fuzzy_contiguity predicate=intersects, buffering=False",
+  "weight_transform": "binary",
+  "islands_excluded_from_join_test": [
+    "E01019077"
+  ],
+  "python": "3.11.15 | packaged by conda-forge | (main, Jun 11 2026, 03:29:05) [Clang 19.1.7 ]",
+  "platform": "macOS-15.7.1-arm64-arm-64bit",
+  "package_versions": {
+    "esda": "2.9.0",
+    "geopandas": "1.1.4",
+    "libpysal": "4.14.1",
+    "numpy": "2.4.6",
+    "pandas": "3.0.5"
+  }
+}

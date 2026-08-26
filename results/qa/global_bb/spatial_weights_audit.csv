@@ -1,0 +1,2 @@
+total_lsoas,lsoas_in_join_count,undirected_links,mean_neighbours,median_neighbours,maximum_neighbours,island_count,islands,weight_construction,weight_transform
+3411,3410,9607,5.6329522134271475,5.0,20,1,E01019077,"PySAL fuzzy_contiguity: intersects, no buffer",binary

@@ -1,0 +1,13 @@
+﻿year,check,value,pass
+2001,"3,411 unique LSOAs",3411,True
+2001,Care50 rate definition,2.56739074444567e-16,True
+2001,eligible charity count conserved,2276,True
+2001,capacity nonnegative,0,True
+2011,"3,411 unique LSOAs",3411,True
+2011,Care50 rate definition,2.77555756156289e-16,True
+2011,eligible charity count conserved,3313,True
+2011,capacity nonnegative,0,True
+2021,"3,411 unique LSOAs",3411,True
+2021,Care50 rate definition,9.4542429440736e-17,True
+2021,eligible charity count conserved,3996,True
+2021,capacity nonnegative,0,True

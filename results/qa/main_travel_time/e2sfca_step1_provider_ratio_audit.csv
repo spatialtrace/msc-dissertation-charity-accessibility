@@ -1,0 +1,4 @@
+﻿year,provider_lsoas,providers_with_positive_capacity,positive_capacity_without_demand,sum_capacity,sum_weighted_competing_demand,sum_external_weighted_competing_demand,pass
+2001,1789,1779,0,27279.8283501902,5077194.67458254,1343815.06651059,True
+2011,2419,2390,0,42724.6028343837,9110381.78404692,2534546.82556714,True
+2021,2671,2593,0,51322.8822034926,11551943.36,3475137.94,True

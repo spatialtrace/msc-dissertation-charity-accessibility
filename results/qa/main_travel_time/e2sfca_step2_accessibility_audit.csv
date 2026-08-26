@@ -1,0 +1,4 @@
+﻿year,support_lsoas,internal_result_lsoas,internal_A_min,internal_A_median,internal_A_max,internal_lsoas_with_external_provider_contribution,sum_external_provider_contribution_to_internal_A,pass
+2001,6969,3411,0,0.209023144205846,1.54227601599661,1172,17.1923553664493,True
+2011,6969,3411,0,0.26005446465154,0.862167430720152,1173,20.2210927966631,True
+2021,6969,3411,0,0.267558521314914,1.2165727542507,1175,19.496585401999,True

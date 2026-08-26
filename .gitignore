@@ -1,0 +1,44 @@
+# macOS and Python
+.DS_Store
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Environments and local configuration
+.env
+.venv/
+venv/
+env/
+
+# Private or generated analytical material
+_private_outputs/
+**/_private_outputs/
+raw_data/
+private_data/
+licensed_data/
+*.gpkg
+*.gdb/
+*.shp
+*.dbf
+*.shx
+*.prj
+*.cpg
+*.npz
+*.npy
+*.parquet
+*.feather
+*.geoparquet
+*.qgz
+*.qgs
+
+# Generated notebook/workflow directories
+**/tables/
+**/qa/
+**/manifest/
+**/figures/
+
+# Explicitly retain curated release artefacts
+!results/
+!results/**
+!figures/
+!figures/**

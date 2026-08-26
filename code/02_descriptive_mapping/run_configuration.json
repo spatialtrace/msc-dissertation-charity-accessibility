@@ -1,0 +1,40 @@
+{
+  "analysis_type": "shared_descriptive",
+  "title": "Shared descriptive mapping and summary statistics, 2001/2011/2021",
+  "boundary_gpkg": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+  "covariate_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2021.csv"
+  },
+  "assignment_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2021.csv"
+  },
+  "provider_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2001.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2011.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2021.csv"
+  },
+  "charity_paths": {
+    "2001": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2001charity.csv",
+    "2011": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2011charity.csv",
+    "2021": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2021charity.csv"
+  },
+  "input_paths": [
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_lsoa_spatial_foundation.gpkg",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2001.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2011.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_covariates_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2001.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2011.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_charity_assignments_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2001.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2011.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/unified-lsoa/common2021_provider_lsoa_index_2021.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2001charity.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2011charity.csv",
+    "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Data_Spine/charity_rebuild_v2/07_final_outputs/2021charity.csv"
+  ]
+}

@@ -1,0 +1,32 @@
+{
+  "created_at_utc": "2026-08-23T15:36:54.294386+00:00",
+  "analysis_type": "accessibility_mapping_and_longitudinal_hp_la",
+  "specification": "Travel-time-based 30 min, exact 20/40 km boundary support",
+  "source_e2sfca_run": "${DISSERTATION_DATA_ROOT}/final_data_and_analysis/Travel_Time/Road_network(Travel_Time)/TravelTime_E2SFCA_30min_ExactHalo20_40_Run_20260823",
+  "source_e2sfca_recalculated": false,
+  "years": [
+    2001,
+    2011,
+    2021
+  ],
+  "geography": "fixed 3,411 2021 LSOAs",
+  "A_and_Astar": "read unchanged from the executed source E2SFCA run",
+  "standardisation": "source A* retains fixed 2001 South West Care50-weighted mean benchmark",
+  "annual_hpla": "care50_rate > annual median and A* < annual median, using strict inequalities",
+  "trajectory_mapping": {
+    "111": "Persistent HP–LA",
+    "001/011": "Emerging HP–LA",
+    "100/110": "Resolved / improved",
+    "010/101": "Intermittent",
+    "000": "Never HP–LA"
+  },
+  "icb_accessibility": "Care50-weighted A/A* plus unweighted descriptive summaries",
+  "icb_trajectory": "local LSOA composition and 2021 Care50 composition; not an ICB weighted trajectory",
+  "explicitly_not_run": [
+    "E2SFCA recalculation",
+    "Bi-LISA",
+    "regression",
+    "BYM2"
+  ],
+  "source_files_verified_unchanged": 11
+}

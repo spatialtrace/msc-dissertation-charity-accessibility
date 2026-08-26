@@ -1,0 +1,4 @@
+﻿year,demand_support_lsoas,provider_lsoas,all_candidate_pairs,finite_true_network_pairs,unreachable_or_over_catchment_pairs,finite_min_impedance,finite_max_impedance,max_impedance,impedance_unit,pass
+2001,6969,1789,12467541,317626,12149915,2.9410240650177,19999.98046875,20000,metres,True
+2011,6969,2419,16858011,448505,16409506,2.9410240650177,19999.98828125,20000,metres,True
+2021,6969,2671,18614199,505013,18109186,2.9410240650177,19999.98828125,20000,metres,True
