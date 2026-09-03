@@ -17,4 +17,3 @@
 - `build_travel_time_screening_graph_45km.py`
 - `prepare_provider_centred_travel_time_package.py`
 
-The former supporting charity and income-check branches are not included because they contain historical/base-pipeline material rather than the final reporting path.
