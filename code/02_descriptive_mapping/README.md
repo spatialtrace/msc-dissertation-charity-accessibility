@@ -2,4 +2,4 @@
 
 `01_descriptive_mapping_summary.ipynb` describes Care50, charity presence and income-weighted capacity before E2SFCA is calculated.
 
-The notebook checks source availability, 3,411-LSOA conservation and input integrity before producing regional, ICB and temporal summaries. Descriptive changes are not interpreted causally.
+The notebook checks source availability, 3,411-LSOA conservation and input integrity before producing regional, ICB and temporal summaries.
