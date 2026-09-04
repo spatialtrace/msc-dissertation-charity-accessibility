@@ -4,6 +4,12 @@ Reproducibility package for an MSc dissertation examining how potential accessib
 
 The analytical geography is a fixed set of 3,411 2021 LSOAs. Historical additive Census counts are harmonised to that geography before rates are recalculated. Charity capacity is represented by the LSOA sum of charity-level `log(1 + income_2021_gbp)`. The main accessibility model is a 30-minute road travel-time E2SFCA with exact 20 km external-provider and 40 km external-demand support envelopes.
 
+## Interactive map
+
+[Open the public ArcGIS map](https://www.arcgis.com/apps/mapviewer/index.html?webmap=75a3e9cdaed94637bdaf53f91ffaab3b)
+
+Click an LSOA to view local details and compare unpaid-care pressure and care-weighted accessibility across 2001, 2011 and 2021.
+
 ## Repository status
 
 This repository corresponds to the final dissertation workflow. It contains annotated code, aggregate result tables, non-geographic charts and QA evidence. Raw data, charity-level records, licensed Ordnance Survey data, road graphs, OD caches and LSOA-level analytical outputs are deliberately excluded.
