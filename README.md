@@ -8,6 +8,8 @@ The analytical geography is a fixed set of 3,411 2021 LSOAs. Historical additive
 
 [Open the public ArcGIS map](https://www.arcgis.com/apps/mapviewer/index.html?webmap=75a3e9cdaed94637bdaf53f91ffaab3b)
 
+**Browser recommendation:** Open the map in Safari. It may not load correctly in Chrome.
+
 Click an LSOA to view local details and compare unpaid-care pressure and care-weighted accessibility across 2001, 2011 and 2021.
 
 ## Repository status
